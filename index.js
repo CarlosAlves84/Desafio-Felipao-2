@@ -22,8 +22,8 @@ function calcularRank(vitorias, derrotas) {
         nivel = 'Imortal';
     }
     
-    // Retorna a mensagem com o saldo de vitórias e o nível
-    return `O Herói tem um saldo de ${saldoVitorias} vitórias e está no nível ${nivel}.`;
+    // Retorna a mensagem concatenada com o saldo de vitórias e o nível
+    return "O Herói tem um saldo de " + saldoVitorias + " vitórias e está no nível " + nivel + ".";
 }
 
 // Teste da função
